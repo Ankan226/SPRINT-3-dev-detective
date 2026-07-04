@@ -55,26 +55,30 @@ Live link:- https://dev-detective-prodesk-it.netlify.app/
 Search a real username (e.g. `octocat`) and capture the resulting case file:
 avatar, bio, join date, and the Top 5 Repositories list.
 
-![Single search result](screenshots/single-search.png)
+<img width="663" height="881" alt="image" src="https://github.com/user-attachments/assets/fcec21c3-7eb8-4433-9fd0-c2cedb2acbeb" />
+
 
 ### 2. Loading State
 Capture the brief "Pulling the file..." spinner right after clicking
 **Open File** — you may need to throttle your network in DevTools
 (Network tab → Throttling → Slow 3G) to catch it on screen.
 
-![Loading state](screenshots/loading-state.png)
+<img width="557" height="401" alt="image" src="https://github.com/user-attachments/assets/affc4b9f-d381-4684-b2a0-a8ddac35704e" />
+
 
 ### 3. 404 / Not Found State
 Search a username that doesn't exist (e.g. `zzzxyz123notreal`) and capture
-the "Case Closed" not-found card.
+the "Case Closed" no record of a github user named "{username}".
 
-![Not found state](screenshots/not-found.png)
+<img width="586" height="567" alt="image" src="https://github.com/user-attachments/assets/1c867c49-a8c7-4c10-bd99-1efa3a853b02" />
+
 
 ### 4. Battle Mode — Comparison Result
 Switch to Battle Mode, compare two real usernames, and capture the
 verdict banner plus the winner (green border) / loser (red border) cards.
 
-![Battle mode result](screenshots/battle-mode.png)
+<img width="966" height="903" alt="image" src="https://github.com/user-attachments/assets/e9440de6-d3d4-426f-a9b6-3b559bd6785b" />
+
 
 ---
 
@@ -89,4 +93,5 @@ verdict banner plus the winner (green border) / loser (red border) cards.
 
 
 -Author
-Ankan Pal, IIT PATNA
+
+-Ankan Pal, IIT PATNA
